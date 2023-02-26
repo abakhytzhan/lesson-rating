@@ -1,0 +1,29 @@
+.submit {
+  width: 341px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: #fc7614;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.submit:hover {
+  color: #fc7614;
+  background-color: #ffffff;
+}
+
+@media (max-width: 450px) {
+  .submit {
+    width: 279px;
+    height: 45px;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 18px;
+  }
+}

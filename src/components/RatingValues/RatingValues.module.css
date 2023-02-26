@@ -1,0 +1,53 @@
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+  width: 341px;
+  margin-bottom: 32px;
+  margin-left: -15px;
+}
+
+.buttons input {
+  visibility: hidden;
+}
+
+.buttons label {
+  background-color: rgb(38, 46, 56);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 51px;
+  left: 0;
+  position: relative;
+  top: 0px;
+  width: 51px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #969fad;
+  font-weight: bold;
+}
+
+.buttons label:hover {
+  background-color: rgb(124, 135, 152);
+  color: #fff;
+}
+
+.buttons input:checked + label {
+  background-color: #fc7614;
+  color: #fff;
+}
+
+@media (max-width: 450px) {
+  .buttons {
+    width: 281px;
+    margin-bottom: 24px;
+    margin-left: -15px;
+  }
+  .buttons label {
+    height: 42px;
+    width: 42px;
+  }
+}
